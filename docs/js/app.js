@@ -16,17 +16,17 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./demo.js */ \"./src/js/demo.js\");\n/* harmony import */ var _demo_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_demo_js__WEBPACK_IMPORTED_MODULE_1__);\n\n\n/* Your JS Code goes here */\n\n/* Demo JS */\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBMEI7O0FBRTFCOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vQHdlYXJlYXRobG9uL2Zyb250ZW5kLXdlYnBhY2stYm9pbGVycGxhdGUvLi9zcmMvanMvYXBwLmpzPzkwZTkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuLi9zY3NzL2FwcC5zY3NzJztcclxuXHJcbi8qIFlvdXIgSlMgQ29kZSBnb2VzIGhlcmUgKi9cclxuXHJcbi8qIERlbW8gSlMgKi9cclxuaW1wb3J0ICcuL2RlbW8uanMnO1xyXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/app.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/app.scss */ \"./src/scss/app.scss\");\n/* harmony import */ var _landing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./landing */ \"./src/js/landing.js\");\n/* harmony import */ var _landing__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_landing__WEBPACK_IMPORTED_MODULE_1__);\n\n\n/* Your JS Code goes here */\n\n/* Demo JS */\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBMEI7O0FBRTFCOztBQUVBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vQHdlYXJlYXRobG9uL2Zyb250ZW5kLXdlYnBhY2stYm9pbGVycGxhdGUvLi9zcmMvanMvYXBwLmpzPzkwZTkiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICcuLi9zY3NzL2FwcC5zY3NzJztcclxuXHJcbi8qIFlvdXIgSlMgQ29kZSBnb2VzIGhlcmUgKi9cclxuXHJcbi8qIERlbW8gSlMgKi9cclxuaW1wb3J0ICcuL2xhbmRpbmcnO1xyXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/js/app.js\n");
 
 /***/ }),
 
-/***/ "./src/js/demo.js":
-/*!************************!*\
-  !*** ./src/js/demo.js ***!
-  \************************/
+/***/ "./src/js/landing.js":
+/*!***************************!*\
+  !*** ./src/js/landing.js ***!
+  \***************************/
 /***/ (() => {
 
-eval("var demo = function demo() {\n  return 'Webpack Boilerplate v5.16.0 - SASS/PostCSS, ES6/7, browser sync, source code listing and more.';\n};\n\n// eslint-disable-next-line no-console\nconsole.log(demo());//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvZGVtby5qcy5qcyIsIm5hbWVzIjpbImRlbW8iLCJjb25zb2xlIiwibG9nIl0sInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9Ad2VhcmVhdGhsb24vZnJvbnRlbmQtd2VicGFjay1ib2lsZXJwbGF0ZS8uL3NyYy9qcy9kZW1vLmpzP2MzNDgiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgZGVtbyA9ICgpID0+ICdXZWJwYWNrIEJvaWxlcnBsYXRlIHY1LjE2LjAgLSBTQVNTL1Bvc3RDU1MsIEVTNi83LCBicm93c2VyIHN5bmMsIHNvdXJjZSBjb2RlIGxpc3RpbmcgYW5kIG1vcmUuJztcclxuXHJcbi8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb25zb2xlXHJcbmNvbnNvbGUubG9nKGRlbW8oKSk7XHJcbiJdLCJtYXBwaW5ncyI6IkFBQUEsSUFBTUEsSUFBSSxHQUFHLFNBQVBBLElBQUlBLENBQUE7RUFBQSxPQUFTLGdHQUFnRztBQUFBOztBQUVuSDtBQUNBQyxPQUFPLENBQUNDLEdBQUcsQ0FBQ0YsSUFBSSxFQUFFLENBQUMifQ==\n//# sourceURL=webpack-internal:///./src/js/demo.js\n");
+eval("console.log('Landing...');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvbGFuZGluZy5qcy5qcyIsIm5hbWVzIjpbImNvbnNvbGUiLCJsb2ciXSwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsid2VicGFjazovL0B3ZWFyZWF0aGxvbi9mcm9udGVuZC13ZWJwYWNrLWJvaWxlcnBsYXRlLy4vc3JjL2pzL2xhbmRpbmcuanM/ZjFiNCJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zb2xlLmxvZygnTGFuZGluZy4uLicpO1xyXG4iXSwibWFwcGluZ3MiOiJBQUFBQSxPQUFPLENBQUNDLEdBQUcsQ0FBQyxZQUFZLENBQUMifQ==\n//# sourceURL=webpack-internal:///./src/js/landing.js\n");
 
 /***/ }),
 
