@@ -18,6 +18,10 @@
 /* Vendor */
 
 /* Components */
+@import 'base/common';
+
+/* Section */
+@import 'sections/hero';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
