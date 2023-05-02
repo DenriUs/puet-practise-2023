@@ -1,0 +1,15 @@
+.companies {
+  background-color: whitesmoke;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 58px;
+  }
+
+  svg {
+    fill: #737373;
+  }
+}
