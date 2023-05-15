@@ -20,6 +20,7 @@
 /* Components */
 @import 'base/common';
 @import 'base/buttons';
+@import 'base/slick';
 
 /* Section */
 @import 'sections/hero';
@@ -28,6 +29,8 @@
 @import 'sections/video';
 @import 'sections/companies';
 @import 'sections/subscribe';
+@import 'sections/support';
+@import 'sections/footer';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
