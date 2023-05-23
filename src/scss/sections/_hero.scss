@@ -95,11 +95,12 @@
 }
 
 .hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   max-width: 510px;
 
   @media screen and (max-width: $medium-screen) {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     align-self: center;
