@@ -6,6 +6,7 @@
 
   &__container {
     display: flex;
+    justify-content: center;
     max-width: 986px;
     width: 100%;
     padding: 30px 50px;
@@ -17,6 +18,13 @@
     background-color: #16697a;
 
     z-index: 1;
+
+    @media screen and (max-width: 850px) {
+      flex-direction: column;
+      text-align: center;
+
+      gap: 30px;
+    }
   }
 
   &__input {

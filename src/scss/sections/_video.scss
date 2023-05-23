@@ -1,4 +1,6 @@
 .video {
+  margin-top: 90px;
+
   background-color: #ffffff;
 
   &__container {
@@ -13,7 +15,8 @@
 .video-content {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 200px;
+  justify-content: center;
+  margin: 100px 30px;
 
   gap: 120px;
 }

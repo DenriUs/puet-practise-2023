@@ -36,30 +36,31 @@ $(window).on('load', function () {
 
   const swiper = new Swiper('.swiper', {
     modules: [Navigation],
-    //spaceBetween: 30,
+    spaceBetween: 30,
     slidesPerView: 4,
+    loop: true,
     navigation: {
       nextEl: '.swiper-next',
       prevEl: '.swiper-prev',
     },
-    // breakpoints: {
-    //   100: {
-    //     slidesPerView: 1,
-    //     spaceBetween: 20,
-    //   },
-    //   510: {
-    //     slidesPerView: 2,
-    //     spaceBetween: 20,
-    //   },
-    //   750: {
-    //     slidesPerView: 3,
-    //     spaceBetween: 30,
-    //   },
-    //   1024: {
-    //     slidesPerView: 4,
-    //     spaceBetween: 30,
-    //   },
-    // },
+    breakpoints: {
+      100: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      510: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      750: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 30,
+      },
+    },
   });
 });
 

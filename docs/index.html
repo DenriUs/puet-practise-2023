@@ -24,14 +24,27 @@
               <li class="nav__item"><a href="#">Contact</a></li>
             </ul>
           </nav>
+          <input type="checkbox" name="drawer-toggle" id="drawer-toggle" class="drawer-toggle" />
+          <label for="drawer-toggle" class="drawer-toggle-label"></label>
+          <nav class="drawer">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="drawer-overlay"></div>
         </div>
         <div class="hero-cta">
           <h1>Empower your business</h1>
           <div class="hero-cta__info">
             We know how large objects will act, but things on a small scale.
           </div>
-          <a class="btn btn--rounded btn--primary" href="#">Get Quote Now</a>
-          <a class="btn btn--rounded btn--primary btn--outline" href="#">Learn More</a>
+          <div class="hero-cta__buttons">
+            <a class="btn btn--rounded btn--primary" href="#">Get Quote Now</a>
+            <a class="btn btn--rounded btn--primary btn--outline" href="#">Learn More</a>
+          </div>
         </div>
         <div class="hero-blocks">
           <div class="hero-block">
@@ -148,58 +161,101 @@
                 the two major realms of Classical physics: Newtonian mechanics
               </p>
             </div>
-            <!-- <div class="swiper"> -->
-            <div class="features-cards">
-              <div class="features-card">
-                <div class="features-card__text">
-                  <p class="features-card__title">A single source<br />of truth</p>
-                  <p class="features-card__description">
-                    Newton thought that light was made up of particles, but then it was discovered
-                  </p>
+            <div class="container features-slider">
+              <div class="swiper">
+                <div class="features-cards swiper-wrapper">
+                  <div class="features-card swiper-slide">
+                    <div class="features-card__text">
+                      <p class="features-card__title">A single source<br />of truth</p>
+                      <p class="features-card__description">
+                        Newton thought that light was made up of particles, but then it was
+                        discovered
+                      </p>
+                    </div>
+                    <img src="images/content/image1.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">Fastest way to organize</p>
+                      <p class="features-card__description">
+                        “Quantum mechanics” is the description of the behaviour of matter
+                      </p>
+                    </div>
+                    <img src="images/content/image2.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">
+                        Fastest way to<br />
+                        take action
+                      </p>
+                      <p class="features-card__description">
+                        They describe a universe consisting of bodies moving
+                      </p>
+                    </div>
+                    <img src="images/content/image3.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">Work better together</p>
+                      <p class="features-card__description">
+                        They finally obtained a consistent description of the behaviour
+                      </p>
+                    </div>
+                    <img src="images/content/image4.png" />
+                  </div>
+                  <div class="features-card swiper-slide">
+                    <div class="features-card__text">
+                      <p class="features-card__title">A single source<br />of truth</p>
+                      <p class="features-card__description">
+                        Newton thought that light was made up of particles, but then it was
+                        discovered
+                      </p>
+                    </div>
+                    <img src="images/content/image1.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">Fastest way to organize</p>
+                      <p class="features-card__description">
+                        “Quantum mechanics” is the description of the behaviour of matter
+                      </p>
+                    </div>
+                    <img src="images/content/image2.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">
+                        Fastest way to<br />
+                        take action
+                      </p>
+                      <p class="features-card__description">
+                        They describe a universe consisting of bodies moving
+                      </p>
+                    </div>
+                    <img src="images/content/image3.png" />
+                  </div>
+                  <div class="features-card swiper-slide"">
+                    <div class="features-card__text">
+                      <p class="features-card__title">Work better together</p>
+                      <p class="features-card__description">
+                        They finally obtained a consistent description of the behaviour
+                      </p>
+                    </div>
+                    <img src="images/content/image4.png" />
+                  </div>
                 </div>
-                <img src="images/content/image1.png" />
-              </div>
-              <div class="features-card">
-                <div class="features-card__text">
-                  <p class="features-card__title">Fastest way to organize</p>
-                  <p class="features-card__description">
-                    “Quantum mechanics” is the description of the behaviour of matter
-                  </p>
-                </div>
-                <img src="images/content/image2.png" />
-              </div>
-              <div class="features-card">
-                <div class="features-card__text">
-                  <p class="features-card__title">
-                    Fastest way to<br />
-                    take action
-                  </p>
-                  <p class="features-card__description">
-                    They describe a universe consisting of bodies moving
-                  </p>
-                </div>
-                <img src="images/content/image3.png" />
-              </div>
-              <div class="features-card">
-                <div class="features-card__text">
-                  <p class="features-card__title">Work better together</p>
-                  <p class="features-card__description">
-                    They finally obtained a consistent description of the behaviour
-                  </p>
-                </div>
-                <img src="images/content/image4.png" />
               </div>
             </div>
-            <!-- <div class="slider-arrows">
+            <div class="slider-arrows">
               <svg width="30" height="30" class="swiper-prev">
                 <use xlink:href="images/content/sprite.svg#icon15"></use>
               </svg>
               <svg width="30" height="30" class="swiper-next">
                 <use xlink:href="images/content/sprite.svg#icon16"></use>
               </svg>
-            </div> -->
+            </div>
           </div>
-          <!-- </div> -->
         </div>
 
         <div class="video">
@@ -254,24 +310,36 @@
 
         <div class="companies">
           <div class="container companies__container">
-            <svg width="103" height="35">
-              <use xlink:href="images/content/logo-sprite.svg#logo1"></use>
-            </svg>
-            <svg width="84" height="59">
-              <use xlink:href="images/content/logo-sprite.svg#logo2"></use>
-            </svg>
-            <svg width="102" height="75">
-              <use xlink:href="images/content/logo-sprite.svg#logo3"></use>
-            </svg>
-            <svg width="103" height="42">
-              <use xlink:href="images/content/logo-sprite.svg#logo4"></use>
-            </svg>
-            <svg width="104" height="62">
-              <use xlink:href="images/content/logo-sprite.svg#logo5"></use>
-            </svg>
-            <svg width="76" height="72">
-              <use xlink:href="images/content/logo-sprite.svg#logo6"></use>
-            </svg>
+            <div class="companies-logo">
+              <svg width="103" height="35">
+                <use xlink:href="images/content/logo-sprite.svg#logo1"></use>
+              </svg>
+            </div>
+            <div class="companies-logo">
+              <svg width="84" height="59">
+                <use xlink:href="images/content/logo-sprite.svg#logo2"></use>
+              </svg>
+            </div>
+            <div class="companies-logo">
+              <svg width="102" height="75">
+                <use xlink:href="images/content/logo-sprite.svg#logo3"></use>
+              </svg>
+            </div>
+            <div class="companies-logo">
+              <svg width="103" height="42">
+                <use xlink:href="images/content/logo-sprite.svg#logo4"></use>
+              </svg>
+            </div>
+            <div class="companies-logo">
+              <svg width="104" height="62">
+                <use xlink:href="images/content/logo-sprite.svg#logo5"></use>
+              </svg>
+            </div>
+            <div class="companies-logo">
+              <svg width="76" height="72">
+                <use xlink:href="images/content/logo-sprite.svg#logo6"></use>
+              </svg>
+            </div>
           </div>
         </div>
 
@@ -346,6 +414,7 @@
           </div>
         </div>
       </div>
+
       <div class="footer-links">
         <div class="footer-links__container">
           <div class="footer-links__blocks">
@@ -443,6 +512,7 @@
           </div>
         </div>
       </div>
+      
       <div class="features">
         <div class="container">
           <div class="social__container">
